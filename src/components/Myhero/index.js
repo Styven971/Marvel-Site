@@ -1,6 +1,6 @@
 import "./index.css";
 
-const Hero = () => {
+const Myhero = () => {
   return (
     <div className="HeroContainer">
       <div>Your Favourite Marvel character in one click : </div>
@@ -8,4 +8,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Myhero;
