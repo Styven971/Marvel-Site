@@ -1,0 +1,24 @@
+.footerContainer {
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    
+}
+
+.footerContainer h1 {
+    width: auto;
+    border-radius: 10px;
+    color: #0631CB;
+    background-image: linear-gradient(to bottom, #01b8c0, #00c2b8, #00caa7, #00d28d, #00d76b, #38db55, #56de3a, #71e100, #98e400, #b9e600, #d8e800, #f4e909);
+}
+
+.link {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 20px;
+}
+
+.link img {
+    height: 70px;
+}

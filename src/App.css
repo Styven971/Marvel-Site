@@ -1,0 +1,14 @@
+.Title {
+    display: flex;
+    justify-content: center;
+}
+
+.Title h1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-image: linear-gradient(to bottom, #3d3d3d, #463f51, #553e62, #693a6f, #823076, #982774, #ad1a6e, #c00065, #cf0055, #db0041, #e2002a, #e50505);
+    border: solid black 3px;
+    border-radius: 10px;
+    width: 40%;
+}
