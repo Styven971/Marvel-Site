@@ -1,3 +1,5 @@
+import Card from "../Card";
+import { useState } from "react";
 import "./index.css";
 
 const Modale = (props) => {
@@ -8,8 +10,8 @@ const Modale = (props) => {
       }}
       className="modale"
     >
-      <img src={props.character.image} />
-      <div>Nom : {props.character.name}</div>
+      <img src={props.imageUrl} />
+      <div>Nom : {props.name}</div>
     </div>
   );
 };

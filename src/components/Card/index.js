@@ -1,8 +1,9 @@
+import Modale from "../Modale";
 import { useState } from "react";
 
 const Card = (props) => {
   const [show, setShow] = useState(false);
-
+  
     return (
       <> 
       <div className="card" onClick={() => {

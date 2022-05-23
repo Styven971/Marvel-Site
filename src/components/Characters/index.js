@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "../Card";
 
+
 import './index.css'
 
 const Characters = (props) => {
@@ -8,7 +9,7 @@ const Characters = (props) => {
     <div className="CharactersContainer">
       {props.data.map((characters) => {
         console.log(characters)
-        return <Card name={characters.name} imageUrl={characters.url} />;
+        return <Card name={characters.name} imageUrl={characters.url} character={characters}/>;
       })}
     </div>
   );
