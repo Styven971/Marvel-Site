@@ -1,12 +1,11 @@
-import Card from "../Card";
-import { useState } from "react";
+
 import "./index.css";
 
 const Modale = (props) => {
   return (
     <div
       onClick={() => {
-        props.setShow(false);
+        props.setShow(true);
       }}
       className="modale"
     >

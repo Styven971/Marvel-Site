@@ -9,7 +9,7 @@ const Characters = (props) => {
     <div className="CharactersContainer">
       {props.data.map((characters) => {
         console.log(characters)
-        return <Card name={characters.name} imageUrl={characters.url} character={characters}/>;
+        return <Card name={characters.name} biographie={characters.biographie} imageUrl={characters.url} character={characters}/>;
       })}
     </div>
   );
